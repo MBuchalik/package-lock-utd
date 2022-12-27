@@ -1,8 +1,7 @@
 import * as fs from 'fs';
 
 import chalk from 'chalk';
-
-import { Result } from './result';
+import type { Result } from 'micro-result';
 
 /**
  * Log an error message.
