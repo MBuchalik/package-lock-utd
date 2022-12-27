@@ -13,10 +13,12 @@ This package helps! `package-lock-utd` very strictly checks whether `package-loc
 To run `package-lock-utd`, simply execute the following command in the root directory of your npm project:
 
 ```
-npx package-lock-utd@latest
+npx --yes package-lock-utd@latest
 ```
 
 If `package-lock.json` is up to date, the program will exit with a `0` exit code. If `package-lock.json` is not up to date (or an error occurred), the program will exit with a non-zero exit code.
+
+> We use the `--yes` flag in the command to skip a prompt asking whether the package shall be installed. This is particularly useful in automated environments. Technically, npx is able to detect such environments pretty reliably, but it will often print a warning instead, which is also rather irritating.
 
 ### Sample GitHub Actions config
 
@@ -35,7 +37,7 @@ jobs:
           node-version: 18
 
       - name: Check if package-lock.json is up to date
-        run: npx package-lock-utd@latest
+        run: npx --yes package-lock-utd@latest
 
       # Now, run any command you like. This is just an example.
       - name: Install dependencies
