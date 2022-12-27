@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: Check if package-lock.json is up to date
+        run: npx package-lock-utd
+
       - name: Install dependencies
         run: npm ci
 
