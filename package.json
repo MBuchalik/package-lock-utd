@@ -1,9 +1,9 @@
 {
-  "name": "utd",
+  "name": "up-to-date",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Martin Buchalik",
-  "description": "Checks if package-lock.json is Up To Date (= UTD)",
+  "description": "Checks if package-lock.json is Up To Date",
   "keywords": [
     "check",
     "ci",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MBuchalik/utd.git"
+    "url": "git+https://github.com/MBuchalik/up-to-date.git"
   },
   "bugs": {
-    "url": "https://github.com/MBuchalik/utd/issues"
+    "url": "https://github.com/MBuchalik/up-to-date/issues"
   },
-  "homepage": "https://github.com/MBuchalik/utd#readme",
+  "homepage": "https://github.com/MBuchalik/up-to-date#readme",
   "//": "We declare all dependencies as devDependencies because we use rollup which adds the necessary dependencies to our bundle.",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
