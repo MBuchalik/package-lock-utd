@@ -20,6 +20,8 @@ export default [
         file: getFieldFromPackageJson('module'),
         format: 'esm',
         sourcemap: true,
+        // This is necessary for the script to become executable.
+        banner: '#!/usr/bin/env node',
       },
     ],
     plugins: [
