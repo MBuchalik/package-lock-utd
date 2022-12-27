@@ -19,7 +19,8 @@
   "bin": "dist/cli.js",
   "scripts": {
     "build": "rimraf dist/ && rollup -c --bundleConfigAsCjs",
-    "lint": "eslint . --max-warnings=0"
+    "lint": "eslint . --max-warnings=0 && npm run lint-additional-files",
+    "lint-additional-files": "prettier --check **/*.{md,json,yml}"
   },
   "repository": {
     "type": "git",
