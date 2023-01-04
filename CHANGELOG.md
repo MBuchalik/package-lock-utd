@@ -1,3 +1,9 @@
+## 1.0.3 (2023-01-04)
+
+### Changed
+
+- In the Readme, mention to use `@1.x.x` instead of `@latest`. This will avoid issues with future breaking changes.
+
 ## 1.0.2 (2022-12-27)
 
 ### Changed
