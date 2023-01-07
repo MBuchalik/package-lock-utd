@@ -1,6 +1,6 @@
 {
   "name": "package-lock-utd",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "author": "Martin Buchalik",
   "description": "Checks if package-lock.json is Up To Date (= UTD)",
