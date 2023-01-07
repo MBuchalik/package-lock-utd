@@ -1,3 +1,9 @@
+## 1.1.0 (2023-01-07)
+
+### Changed
+
+- The `--ignore-scripts` flag is now used when running `npm install`.
+
 ## 1.0.3 (2023-01-04)
 
 ### Changed
