@@ -35,7 +35,7 @@ exitHook(() => {
 });
 
 try {
-  execSync('npm install --package-lock-only');
+  execSync('npm install --package-lock-only --ignore-scripts');
 } catch {
   logErrorMessage(
     'Something went wrong generating the updated package-lock.json needed for comparison. This could be a problem with npm.',
