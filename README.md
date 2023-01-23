@@ -48,7 +48,7 @@ jobs:
 ```
 
 > **Warning**  
-> Make sure not to run any commands that potentially modify `package-lock.json` (e.g. `npm install`) before executing `npx package-lock-utd@1.x.x`.
+> Make sure to execute `npx package-lock-utd@1.x.x` **before** running any commands that potentially modify `package-lock.json`. Otherwise, you might get false negative results.
 
 ### Local installation
 
