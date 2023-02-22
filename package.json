@@ -33,14 +33,14 @@
   "//": "We declare all dependencies as devDependencies because we use rollup which adds the necessary dependencies to our bundle.",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-typescript": "^10.0.1",
-    "@types/node": "^18.11.18",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.14.0",
     "chalk": "^5.2.0",
-    "eslint-config-mbuchalik": "^1.0.0",
-    "exit-hook": "^3.1.4",
+    "eslint-config-mbuchalik": "^1.1.0",
+    "exit-hook": "^3.2.0",
     "micro-result": "^1.0.1",
     "rimraf": "^3.0.2",
-    "rollup": "^3.9.1",
-    "typescript": "^4.9.4"
+    "rollup": "^3.17.2",
+    "typescript": "^4.9.5"
   }
 }
