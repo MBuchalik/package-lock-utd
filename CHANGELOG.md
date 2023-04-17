@@ -1,8 +1,14 @@
+## 1.1.2 (2023-04-17)
+
+### Misc
+
+- Updated npm dependencies.
+
 ## 1.1.1 (2023-02-22)
 
 ### Misc
 
-- Updated npm dependencies
+- Updated npm dependencies.
 
 ## 1.1.0 (2023-01-07)
 
